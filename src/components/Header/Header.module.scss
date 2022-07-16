@@ -1,0 +1,22 @@
+.root {
+    padding-top: 7%;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    h2 {
+        font-size: 2.8rem;
+    }
+    span {
+        color: var(--color-light);
+    }
+}
+
+.img {
+    img {
+        height: 80vh;
+        border-radius: 30rem 30rem 0 0;
+    }
+}

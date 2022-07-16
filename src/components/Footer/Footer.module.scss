@@ -1,0 +1,25 @@
+.root {
+    background-color: #7858a6;
+    color: #000;
+}
+
+.title {
+    &:hover {
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+.menuContainer {
+    align-self: center;
+}
+
+.menuItem {
+    padding: 1.5rem;
+    p {
+        &:hover {
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
